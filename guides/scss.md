@@ -147,6 +147,8 @@ For nested selectors, the order they should be placed in is:
 3. Pseudo-elements
 4. Child elements
 
+(in the code block below, comments and extra lines are for illustration only and should not be included in your CSS)
+
 ```css
 .selector {
     // Extend
