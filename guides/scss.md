@@ -103,6 +103,8 @@ Including comments in your code is extremely important. Take time to communicate
 * Prefer single-quotes (e.g. `content: ''`)
 * Wrap attribute values in single-quotes in selectors (e.g. `input[type='text']`)
 * Include a space after commas in comma-separated property or function values (e.g. `@include border-radius(1em, 2em, 3em, 4em)`)
+* Declarations with multiple values, where one is different than the others, should be broken into two rules
+    * `margin: 0 0 1em 0; -> margin: 0; margin-bottom: 1em;`
 * Include a semi-colon at the end of every declaration of a declaration block, including the last.
 * Place the closing brace of a ruleset in the same column as the first character of the ruleset.
 * Separate each ruleset by a blank line.
@@ -112,6 +114,8 @@ Including comments in your code is extremely important. Take time to communicate
 .selector2,
 .selector3[type='text'] {
     display: block;
+    margin: 0;
+    margin-bottom: 1rem;
     background: #fff;
     font-family: helvetica, sans-serif;
     &>li {
