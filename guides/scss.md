@@ -141,6 +141,7 @@ Declarations should be in a consistent order. Related properties should be cluse
 5. Other
 
 For nested selectors, the order they should be placed in is:
+
 1. Pseudo-selectors
 2. Additional selectors on original element (e.g.  `&.new-class`)
 3. Pseudo-elements
