@@ -223,5 +223,4 @@ Long, comma-separated property values (e.g. gradients or box-shadows) should be 
         2px 2px 1px 1px #ccc inset;
 }
 ```
-
-Thanks to (Nicolas Gallagher)[https://github.com/necolas/idiomatic-css/] for inspiration.
+Thanks to [Nicolas Gallagher for inspiration](https://github.com/necolas/idiomatic-css/).
