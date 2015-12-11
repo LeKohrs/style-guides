@@ -52,7 +52,7 @@ Including comments in your code is extremely important. Take time to communicate
 ##4. Selectors
 * Class names should use hyphens to separate words
 * ID names should be camelCasedWithLeadingLowerCase
-* Lemonly uses a loose BEM CSS method of naming classes (e.g. `class="block-name--element_modifier"`)
+* Lemonly uses a loose BEM CSS method of naming classes (e.g. `class="block-name__element--modifier"`)
 * Classes are preferred over IDs in selectors
 * Don't modify class names with type (e.g. `header.main`)
 * Nested selectors should never be more than two selectors deep
